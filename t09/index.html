@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero aplication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <div class="form">
+        <form>
+        <div class="about">
+            <span class="s1">About the Superhero</span>
+                <div class="rsa">
+                    <label for="rn">Real Name</label> 
+                    <input type="text" id="rn" name="Real name" placeholder="Superhero real name" autofocus>
+                    <label for="sn">Superhero Name</label> 
+                    <input type="text" id="sn" name="SH name" placeholder="Superhero name">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="1" max="999">
+                </div>
+                <div class="textarea">
+                    <label  for="area">About</label>
+                    <textarea id="area" name="about" maxlength="500" cols="70" rows="5" lines="5" placeholder="Information about the superhero, max 500 symbols"></textarea>
+                </div>
+                <div class="photo">
+                    <label for="photo">Photo:</label>
+                    <input type="file" id="photo" name="Chose photo">
+                </div>
+        </div>
+        <div class="powers">
+            <span class="s2">Powers</span>
+                <div class="checklevel">
+                    <input type="checkbox"> Telekinesis
+                    <input type="checkbox"> Super strenght or speed
+                    <input type="checkbox"> Shapeshifting
+                    <input type="checkbox"> Flight
+                    <input type="checkbox"> Elemental control
+                    <input type="checkbox"> Other
+                </div><br>
+                <div id="slide" class="slider">
+                    Level of control: <input type="range" min="1" max="100" value="0">
+                </div>
+        </div>
+        <div class="origin">
+            <span class="s3">Origin of Powers</span>
+                <div class="radio">
+                    <input type="radio" name="Power" value="Uknown"> Uknown
+                    <input type="radio" name="Power" value="Freak lab accident"> Freak lab accident
+                    <input type="radio" name="Power" value="ancient"> Chosen by an ancient wise being
+                    <input type="radio" name="Power" value="not human"> The superhero is not human
+                    <input type="radio" name="Power" value="other"> Other
+                </div>
+        </div>
+        <div class="buttons">
+        <button>CLEAR</button>
+        <button>SEND</button>
+        </div>
+        </form>
+    </div>
+        <!-- <form> 
+        <input type="text" name="Superhero name" placeholder="Write your name...">
+        <input type="text" name="Superhero name" value="Write your ">
+        Male: <input type="radio" name="gender"  value="Male">
+        Female: <input type="radio" name="gender"  value="Female">
+        Other: <input type="radio" name="Superhero name"  value="other" checked>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="lang" id="eng">
+        &nbsp;
+        <span id="eng">English</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="lang" id="eng">
+        &nbsp;
+        <span id="eng">English</span>
+        <input type="password" name="pwd" placeholder="pass">
+        <textarea name="message"
+         placeholder="write some words"id="" cols="10" rows="10"></textarea>
+         <select name="car" id="">
+            <option value="car0">None</option>
+             <option value="car1">Ford</option>
+             <option value="car2">Opel</option>
+             <option value="car3">BMW</option>
+         </select>
+        
+        <button type="submit" name="submit">submit</button>
+    </form> -->
+</body>
+</html>

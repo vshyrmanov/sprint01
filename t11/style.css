@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+    
+    
+
+}
+.monday:hover {  
+    box-shadow: 0px 0px 15px gray;
+    
+} 
+.tuesday:hover {  
+    box-shadow: 0px 0px 15px gray;  
+} 
+.wednesday:hover {  
+    box-shadow: 0px 0px 15px gray;  
+} 
+.thursday:hover {  
+    box-shadow: 0px 0px 15px gray;  
+} 
+.friday:hover {  
+    box-shadow: 0px 0px 15px gray;  
+} 
+.saturday:hover {  
+    box-shadow: 0px 0px 15px gray;  
+} 
+.sunday:hover {  
+    box-shadow: 0px 0px 15px gray;  
+}   
+.monday {
+    width: 13%;
+    height: 15%;
+}
+.tuesday {
+    width: 13%;
+    height: 15%;
+}
+.wednesday {  
+    width: 13%;
+    height: 15%;
+}
+.thursday {
+    width: 13%;
+    height: 15%;
+}
+.friday {
+    width: 13%;
+    height: 15%;
+}
+.saturday {
+    width: 13%;
+    height: 15%;
+}
+.sunday {
+    width: 13%;
+    height: 15%;
+}
+img {
+    position: relative;
+    align-content: center;
+    width: 100%;
+}
+.date {
+    position: relative;
+    font-family: Lato;
+    font-size: 1.5em;
+    color: white;
+    align-content: center;
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+.temperature {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}

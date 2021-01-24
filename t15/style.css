@@ -1,0 +1,22 @@
+.hand img {
+    width: 10%;
+}
+img {
+    width: 30%;
+} 
+
+.hand:hover tr:nth-child(even) td:nth-child(odd) {
+    visibility: hidden;
+}
+
+.hand:hover tr:nth-child(odd) td:nth-child(even) {
+    visibility: hidden;
+
+}
+.hand:hover +.table1 tr:nth-child(odd) td:nth-child(even) {
+    visibility: hidden;
+}
+
+.hand:hover +.table1 tr:nth-child(even) td:nth-child(odd) {
+    visibility: hidden;
+}

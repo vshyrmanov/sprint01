@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: white;
+}
+.cards_wrap {
+    
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.cards_wrap .card_item {
+    padding: 50px 25px;
+    width: 270px;
+    height: 140px;
+}
+.cards_wrap .card_inner {
+    
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+    justify-content: center;
+    background: linear-gradient(#4568DC, #B06AB3);
+
+}
+.cards_wrap .card_inner1 {
+    background: linear-gradient(#e52d27, #b31217);
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+
+}
+.cards_wrap .card_inner2 {
+    background: linear-gradient(#000, #61045F);
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+
+}
+.cards_wrap .card_inner3 {
+    background: linear-gradient(#e52d27, #000);
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+
+}
+ .card_inner img{
+    height: 182px;
+    position: relative;
+    top: -47px;
+    left: 15px;
+    bottom: 0px;
+    zoom:81%
+    
+    
+
+}
+.card_inner1 img{
+    height: 182px;
+    position: relative;
+    top: -47px;
+    left: 15px;
+    zoom: 81%;
+    
+}
+.card_inner2 img{
+    height: 182px;
+    position: relative;
+    top: -47px;
+    left: 15px; 
+    zoom: 81%;
+}
+.card_inner3 img{
+    height: 182px;
+    position: relative;
+    top: -25px;
+    left: 15px; 
+    zoom: 81%;
+}
+ .card_inner .role_name {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align:right;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: relative;
+    top: 0px;
+}
+ .card_inner .real_name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 5px;
+    
+}
+.card_inner1 .role_name {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align:right;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: relative;
+    top: 0px;
+}
+ .card_inner1 .real_name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 5px;
+}
+.card_inner2 .role_name {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align:right;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: relative;
+    top: 0px;
+}
+ .card_inner2 .real_name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 5px;
+}
+.card_inner3 .role_name {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align:right;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: relative;
+    top: 0px;
+}
+ .card_inner3 .real_name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 5px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Imbue;
+    margin: 10px;
+    padding: 5px; 
+}
+
+.header {
+    display: flex;   
+    margin: auto;
+    font-weight: 600;
+}
+
+.image {
+        margin: 5px;
+        display: flex;
+        align-items: left;
+        justify-content:start;
+        float: left;
+        justify-content: space-between;
+        padding: 0 10px 0 0 ;
+}
+.text {
+    justify-content: space-between;
+    margin: auto;
+    text-align: justify;
+}
+@media print {
+    .image {
+        float: none;
+    }
+}

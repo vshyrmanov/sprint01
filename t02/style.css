@@ -1,0 +1,61 @@
+table {
+    border: solid 1px white;
+    width: 100%;   
+    border-spacing: 0;
+}
+
+td img{
+    height: 120px;
+    width: 120px;
+    border-radius: 30px;
+    padding: 5px;
+        
+}
+
+td{
+   border-top: 2px solid rgb(253, 251, 251);
+   border-right: 2px solid rgb(255, 254, 254);
+   font-weight: 600;
+   text-align: center;
+   padding: 10px;
+}
+tr#head {
+    color: white;
+    background:black;
+    
+}
+tr#soul {
+    color: black;
+    background: rgb(243, 168, 6); 
+   
+    
+
+}
+tr#time {
+    color: black;
+    background: green;
+    
+    
+}
+tr#space {
+    color: black;
+    background:blue;
+}
+tr#mind {
+    color: black;
+    background: yellow;
+}
+tr#reality {
+    color: black;
+    background: red;
+}
+tr#power {
+    color:black;
+    background: purple;
+}
+tr#bottom {
+    text-align: center;
+    border: white;
+    padding: 20px;
+    background: white;
+}

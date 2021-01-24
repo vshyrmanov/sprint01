@@ -1,0 +1,78 @@
+/*form {
+    width: 300px;
+}
+
+input {
+    width: 300px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+    border: 1px solid rgb(255, 0,0);
+}
+::placeholder {
+    color: red;
+    opacity: 1;
+} */
+
+.form {
+    
+    border: 2px solid gray;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+.about {
+    border: 2px solid gray;
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+    
+
+}
+.s1 {
+    position: relative;
+    top: -31px;
+    background-color: white;
+}
+.textarea {
+    margin-top: 15px;
+}
+.photo {
+    margin-top: 15px;
+}
+.powers {
+    border: 2px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.buttons {
+    padding: 0;
+    margin: 15px;
+}
+.s2 {
+    position: relative;
+    top: -31px;
+    background-color: white;
+}
+.origin {
+    border: 2px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.s3 {
+    position: relative;
+    top: -31px;
+    background-color: white;
+}

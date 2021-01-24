@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 150px;
+    padding: 0px 25px;
+    background-color:white;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: left;
+    padding: 25px 25px;
+    font-weight: 900;
+
+}
+#sb {
+    width: 100%;
+    margin: auto;
+}
+#sb input,button {
+    width: 90%;
+    border: 2px solid rgb(7, 7, 7);
+    border-right: 0px;
+    font-size: 18px;
+    padding: 0px 10px;
+    background: transparent;
+    color:green;
+    height: 2em;
+    border-radius: 20px;
+}
+#sb button {
+    width: 10%;
+    background: rgb(202, 195, 195);
+    color: green;
+    float:right;
+    border-left: 0px;
+    border-radius: 10px;
+
+}
+
+#sb button:hover {
+opacity: 8;
+color: red;
+}
+#sb input:hover {
+    opacity: 8;
+    color:red;
+
+}

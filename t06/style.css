@@ -1,0 +1,27 @@
+body {
+    
+    
+    margin-top: 0;
+    border: 0;
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    
+    font-size: 4em;
+    font-family: Arial;
+    background-color: red;
+    color: white;
+    position: relative;
+    background-position: 70%;
+    text-align: center;
+    
+    
+   
+}
+h1 span {
+    position: relative;
+    top: 0.3em;
+}
+
