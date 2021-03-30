@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {padding: 10px;}
+.box {
+    color: #323332;
+    font-size: 2em;
+    width: calc(100% - 200px);
+    margin: 20px 0;
+    padding: 20px;
+    left: 100px;
+    position: relative;
+    background: #F5F1DA;
+}
+.box::after {
+    content: "";
+    border: 2px solid #323332;
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: -25px;
+    left: -25px;
+    border-left: none;
+    border-right: none;
+}
+.box::before {
+    content: "";
+    border: 2px solid #323332;
+    position: absolute;
+    top: -25px;
+    bottom: -25px;
+    left: 0px;
+    right: 0px;
+    border-top: none;
+    border-bottom: none;
+}
